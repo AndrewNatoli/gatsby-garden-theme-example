@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/gatsby-garden-theme-example`,
   plugins: [
     {
       resolve: `gatsby-theme-garden`,
