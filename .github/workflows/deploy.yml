@@ -15,7 +15,7 @@ jobs:
         working-directory: _layouts
       - name: Build website
         run: npm run build -- --prefix-paths
-        working-directory: _layouts
+        working-directory: ./
 
       - name: Deploy to the gh-pages branch
         # only deploy when the main branch has some changes
